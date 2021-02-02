@@ -1,0 +1,5 @@
+import(Biobase)
+importFrom(AnnotationDbi,ls,mget)
+exportPattern("^[^\\.]")
+exportClasses(smc)
+export(.rwb)
